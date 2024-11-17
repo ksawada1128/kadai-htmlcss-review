@@ -1,0 +1,31 @@
+@charset "UTF-08";
+
+/*レイアウトした要素のボックスモデルがよくわかるように、各要素に背景色をつけてください。
+header  #ffcccc
+#main   #ccffcc
+#menu   #ccccff
+footer  #ffccff
+要素の大きさは固定の長さです。ブラウザのウィンドウを縮小しても、#mainが700px、#menuは300pxで表示されるようにしてください。
+つまり、header、footerの横幅は、1000pxとなります。*/
+
+header{
+    background-color: #ffcccc;
+    width:1000px;
+}
+#main{
+    background-color: #ccffcc;
+    width: 700px;
+}
+#menu{
+    background-color: #ccccff;
+    width: 300px;
+}
+footer{
+    background-color: #ffccff;
+    width: 1000px;
+}
+#wrapper{
+    width: 1000px;
+    display:flex;
+    justify-content: space-between;
+}
